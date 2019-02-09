@@ -12,10 +12,4 @@ def bubblesort(lst):
 				srt = True
 	return print(lst)
 
-def selectsort(lst):
-	for i in range(len(lst)):
-		mi = lst.index(min(lst[i:]))
-		lst[i],lst[mi] = lst[mi],lst[i]
-	return print(lst)
-
-selectsort(nums)
+bubblesort(nums)
