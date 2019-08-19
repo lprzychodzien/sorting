@@ -1,4 +1,4 @@
-nums = [9,26,24,17,4,22]
+nums = [8,26,24,17,4,22]
 
 
 def selectsort(lst):
